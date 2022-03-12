@@ -18,3 +18,8 @@ This project aims to be a strong foundation for react-native applications. It pr
 -   [react-native-async-storage](https://github.com/react-native-async-storage/async-storage) as storage solution.
 -   [redux](https://redux.js.org/) for state management.
 -   [tailwind-react-native-classnames](https://github.com/jaredh159/tailwind-react-native-classnames) for styling.
+
+## Steps to start the app
+-   install node.js with version higher than 12.0.0
+-   install expo with the command npm install expo -g
+-   install all the dependencies in the root folder by running the command <code> npm install </code>
