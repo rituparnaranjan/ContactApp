@@ -20,6 +20,16 @@ This project aims to be a strong foundation for react-native applications. It pr
 -   [tailwind-react-native-classnames](https://github.com/jaredh159/tailwind-react-native-classnames) for styling.
 
 ## Steps to start the app
+
+-   install an android emulator to run the app
 -   install node.js with version higher than 12.0.0
--   install expo with the command npm install expo -g
+-   install expo with the command <code> npm install expo -g </code>
 -   install all the dependencies in the root folder by running the command <code> npm install </code>
+-   move to the backend folder and install all the dependencies <code> npm install </code>
+-   start the mongo server on your local machine
+-   now start the backend server of your app
+-   to start the server, move to the backend folder and run the command <code> npm run devStart </code>
+-   now it time to run the appp. To run the app start an android emulator on your device.
+-   now move to the root folder and run the command <code> expo start </code> . Before this make sure all the dependencies and packages are installed, the backend server is         running and the emulator is on.
+-   now a open a tab in your browser with the link <link> http://localhost:19002/ </link> . This will open the expo developer tools.
+-   now click on the run <code> Android emulator </code> button. This will start your app on the emulator running in the background.
